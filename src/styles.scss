@@ -1,0 +1,17 @@
+/* You can add global styles to this file, and also import other style files */
+@import "~@angular/material/prebuilt-themes/indigo-pink.css";
+@import '~bootstrap/dist/css/bootstrap.min.css';
+
+@import 'aos/dist/aos.css'; // You can also use <link> for styles
+.bg { 
+    /* The image used */
+    background-image: url("./assets/images/1.jpg");
+  
+    /* Full height */
+    height: 1000px;; 
+  
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }

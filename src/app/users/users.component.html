@@ -1,0 +1,30 @@
+<div class="container" >
+  <mat-card >
+
+    <mat-list role="list">
+      <mat-list-item role="listitem" class="header">User List</mat-list-item>
+      <mat-divider></mat-divider>
+      <table class="table">
+        <thead>
+          <tr>
+            <th scope="col">Name</th>
+            <th scope="col">Email</th>
+            <th scope="col">Credit</th>
+            <th scope="col"></th>
+
+          </tr>
+        </thead>
+        <tbody>
+          <tr *ngFor="let user of users">
+            <td>{{user.name}}</td>
+            <td>{{user.email}}</td>
+            <td>{{user.credit}}</td>
+            <td>
+              <button (click)="navigate(user.id)" class=" gotoright" mat-raised-button color="primary">View</button>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+    </mat-list>
+  </mat-card>
+</div>
