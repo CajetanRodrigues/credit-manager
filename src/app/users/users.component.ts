@@ -13,7 +13,7 @@ export class UsersComponent implements OnInit {
   earlier = [1,2,3,4,5]
   recent = [1,2,3,4,5]
   arrNumber:number[]=[];
-  private users : any[];
+   users : any[];
   constructor(private snackBar: MatSnackBar, private usersService : UsersService, private router : Router) {
   }
 

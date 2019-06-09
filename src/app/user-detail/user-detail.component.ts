@@ -14,8 +14,8 @@ export class UserDetailComponent implements OnInit {
   idFrom : any;
   idTo : any;
   amount : any;
-   private user : User;
-   private users : User[];
+   user : User;
+    users : User[];
    id : any;
   constructor(private usersService : UsersService,
     private route: ActivatedRoute,
